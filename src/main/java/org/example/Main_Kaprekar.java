@@ -26,4 +26,13 @@ public class Main_Kaprekar {
 
         return desc - asc;
     }
+
+    public static int itKaprekar(int num) {
+        int iteraciones = 0;
+        while(num!=6174){
+            num= kaprekarOp(num);
+            iteraciones++;
+        }
+        return iteraciones;
+    }
 }
