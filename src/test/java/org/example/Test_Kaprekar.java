@@ -18,6 +18,7 @@ public class Test_Kaprekar{
         // Prueba con el número 3524 (debe devolver 3087)
         Assertions.assertEquals(3087, kaprekarOp(3524));
     }
+
     @Test
     public void testKaprekarOperation2() {
         // Prueba con el número 1000 (debe devolver 999)
@@ -29,12 +30,13 @@ public class Test_Kaprekar{
         // Prueba con el número 5200 (debe devolver 5175)
         Assertions.assertEquals(5175, kaprekarOp(5200));
     }
-//    @Test
-//    public void testKaprekarOperation4() {
-//        // Prueba con el número 2111 (debe devolver 999)
-//        Assertions.assertEquals(999, kaprekarOp(2111));
-//    }
-//
+
+    @Test
+    public void testKaprekarOperation4() {
+        // Prueba con el número 2111 (debe devolver 999)
+        Assertions.assertEquals(999, kaprekarOp(2111));
+    }
+
 //    @Test
 //    public void testIterationsToKaprekarConstant1() {
 //        // Prueba con el número 3524 (llega a 6174 en 3 iteraciones)
