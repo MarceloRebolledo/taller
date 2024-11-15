@@ -11,6 +11,7 @@ public class Main_Kaprekar {
 
     }
 //aquí van sus funciones:
+
     public static int kaprekarOp(int num) {
         int n1 = num / 1000; //numero de miles
         int n2 = (num / 100) % 10; //numero de centena
