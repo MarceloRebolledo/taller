@@ -29,12 +29,10 @@ public class Main_Kaprekar {
 
     public static int itKaprekar(int num) {
         int iteraciones = 0;
-        num = num - 2345;
-        iteraciones++;
-        num = num - 378;
-        iteraciones++;
-        num = num - 279;
-        iteraciones++;
+        while(num!=6174){
+            num= kaprekarOp(num);
+            iteraciones++;
+        }
         return iteraciones;
     }
 }
