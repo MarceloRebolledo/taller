@@ -24,11 +24,11 @@ public class Test_Kaprekar{
         Assertions.assertEquals(999, kaprekarOp(1000));
     }
 
-//    @Test
-//    public void testKaprekarOperation3() {
-//        // Prueba con el número 5200 (debe devolver 5175)
-//        Assertions.assertEquals(5175, kaprekarOp(5200));
-//    }
+    @Test
+    public void testKaprekarOperation3() {
+        // Prueba con el número 5200 (debe devolver 5175)
+        Assertions.assertEquals(5175, kaprekarOp(5200));
+    }
 //    @Test
 //    public void testKaprekarOperation4() {
 //        // Prueba con el número 2111 (debe devolver 999)
