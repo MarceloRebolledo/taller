@@ -11,6 +11,7 @@ public class Main_Kaprekar {
 
     }
 //aquí van sus funciones:
+    //al igual que las pruebas anteriores, ya pasaba con el primer codigo asi que recree uno que siga sin afectar las otras pruebas
     public static int kaprekarOp(int num) {
         int n1 = num / 1000; //numero de miles
         int n2 = (num / 100) % 10; //numero de centena
