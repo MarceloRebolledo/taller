@@ -1,6 +1,6 @@
 package org.example;
+import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 // revisar : https://plus.maths.org/content/mysterious-number-6174
 // basado en la operación de kaprekar se deben codificar 2 funciones:
@@ -18,6 +18,7 @@ public class Test_Kaprekar{
         // Prueba con el número 3524 (debe devolver 3087)
         Assertions.assertEquals(3087, kaprekarOp(3524));
     }
+
     @Test
     public void testKaprekarOperation2() {
         // Prueba con el número 1000 (debe devolver 999)
@@ -29,6 +30,7 @@ public class Test_Kaprekar{
         // Prueba con el número 5200 (debe devolver 5175)
         Assertions.assertEquals(5175, kaprekarOp(5200));
     }
+
     @Test
     public void testKaprekarOperation4() {
         // Prueba con el número 2111 (debe devolver 999)
